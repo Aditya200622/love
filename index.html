@@ -224,7 +224,7 @@ $('#secret').onclick=async()=>{const f=$('#fin');f.classList.add('on');await sle
 async function type(t,d=70){for(const c of t){$('#tw').textContent+=c;await sleep(d)}}
 window.addEventListener('load',async()=>{await sleep(1400);$('#load').style.opacity=0;await sleep(1500);$('#load').remove();$('#intro').style.display='flex';
  await type('For Anushka ❤️');await sleep(1200);$('#tw').textContent='';
- await type('One year completed...');await sleep(1200);$('#tw').textContent='';
+ await type('Two year completed...');await sleep(1200);$('#tw').textContent='';
  await type('And every heartbeat still chooses you.');await sleep(800);$('#begin').classList.add('show')});
 $('#begin').onclick=()=>{$('#intro').style.opacity=0;setTimeout(()=>$('#intro').remove(),1500);$('#main').style.opacity=1;
  au.play().then(()=>$('#pp').textContent='❚❚').catch(()=>{});burst(innerWidth/2,innerHeight/2,50,'heart')};
